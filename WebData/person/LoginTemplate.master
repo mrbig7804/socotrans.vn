@@ -1,0 +1,18 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="LoginTemplate.master.cs" Inherits="person_LoginTemplate" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>Đăng nhập - Administrator MB</title>
+    <link href="LoginStyle.css" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" type="image/ico" href="mb.ico" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="wrap">
+            <asp:ContentPlaceHolder id="cphLogin" runat="server" />
+        </div>
+    </form>
+</body>
+</html>

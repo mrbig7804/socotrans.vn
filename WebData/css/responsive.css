@@ -1,0 +1,435 @@
+﻿@media (min-width: 768px) {
+
+    .bot-header .container .row {
+        background: url(/images/images_pj/body_bg.jpg) left center repeat;
+    }
+
+    .mainmenu .navbar-collapse {
+        width: 100%;
+    }
+
+    .mainmenu > ul > li {
+        border-right: 1px solid #fff;
+    }
+
+    .top-home .collapse, .bottom-home .collapse {
+        display: block;
+    }
+
+    .hotProducts ul li {
+        width: 168px;
+    }
+
+        .hotProducts ul li .image {
+            height: 165px;
+        }
+
+    .left-page .collapse {
+        display: block!important;
+    }
+
+    .products-item .image {
+        height: 110px;
+    }
+
+    .inf_showitem .cartItem select {
+        margin-top: 15px;
+    }
+
+    .album-items .image, .image-items .image {
+        height: 120px;
+    }
+
+    #footer .top-footer .list-art.collapse {
+        display: block!important
+    }
+
+    #footer .cp {
+        text-align: left!important
+    }
+
+    #footer .statistic {
+        text-align: right!important;
+    }
+
+        #footer .statistic > span.count_access {
+            margin-right: 40px;
+        }
+
+    .addthis_toolbox.addthis_floating_style.addthis_counter_style {
+        right: 4px;
+        top: 50px;
+        width: 100px;
+        padding-top: 25px;
+        background-color: #fffbfb
+    }
+
+    .mnv-tuvan {
+        right: 2px;
+        bottom: 0px;
+        border-radius: 5px 5px 0 0;
+        -moz-border-radius: 5px 5px 0 0;
+        -webkit-border-radius: 5px 5px 0 0;
+        padding: 5px 10px 6px;
+    }
+
+        .mnv-tuvan .glyphicon-comment {
+            padding-right: 8px;
+            font-size: 18px;
+            top: 5px;
+        }
+
+            .mnv-tuvan a.collapse {
+                display: inline-block;
+            }
+}
+
+
+@media (min-width:1024px) {
+    .hotProducts ul li {
+        width: 175px;
+    }
+
+        .hotProducts ul li .image {
+            height: 172px;
+        }
+
+    .inf_showitem .cartItem select {
+        width: 25px;
+        padding-left: 5px;
+    }
+
+.products-item .image {
+        height: 150px;
+    }
+
+    .album-items .image, .image-items .image {
+        height: 155px;
+    }
+
+    .addthis_toolbox.addthis_floating_style.addthis_counter_style.collapse {
+        display: block;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1090px;
+    }
+
+    .hotProducts ul li {
+        width: 198px;
+    }
+
+        .hotProducts ul li .image {
+            height: 195px;
+        }
+
+    .main-cc .col-sm-3 {
+        width: 20%!important;
+    }
+
+    .main-cc .image {
+        height: 135px;
+    }
+
+    .album-items .image, .image-items .image {
+        height: 190px;
+    }
+
+.products-item .image {
+        height: 182px;
+    }
+}
+
+@media (max-width: 767px) {
+    .mainmenu ul li {
+        border-bottom: 1px solid #fff;
+    }
+
+    .mainmenu ul.sub-menu {
+        position: relative;
+        width: auto;
+        display: block;
+        background-image: none;
+        background-color: #a1ca4a;
+        box-shadow: none;
+        -moz-box-shadow: none;
+        -webkit-box-shadow: none;
+        top: 0;
+        z-index: 9999;
+        margin-top: 0;
+        padding-bottom: 12px;
+        border-top: 1px solid #fff;
+        border-radius: 0!important;
+        -moz-border-radius: 0!important;
+        -webkit-border-radius: 0!important;
+    }
+
+    .mainmenu .nav.navbar-nav > li:hover > ul.sub-menu {
+        -webkit-animation: none;
+        -moz-animation: none;
+        -ms-animation: none;
+        -o-animation: none;
+        animation: none;
+        box-shadow: none;
+    }
+
+    .mainmenu ul.sub-menu li {
+        margin: 0;
+        padding-left: 22px;
+    }
+
+    .mainmenu .navbar-nav li ul.sub-menu li:last-child {
+        padding-bottom: 0;
+    }
+
+.products-item .image {
+        height: 335px;
+    }
+
+    .bottom-home .home-news {
+        margin-bottom: 15px;
+    }
+    
+    .album-items .image, .image-items .image {
+        height: 335px;
+    }
+
+    #to_top {
+        display: none!important
+    }
+
+    .mnv-tuvan {
+        right: 10px;
+        bottom: 15px;
+        border-radius: 50%;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        padding: 8px 10px;
+        box-shadow: 0px 0px 8px rgba(0, 0, 0, .5);
+        -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, .5);
+        -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, .5);
+    }
+
+        .mnv-tuvan .glyphicon-comment {
+            font-size: 25px;
+            top: 4px
+        }
+
+
+    .call-hotline.collapse {
+        display: block!important;
+        left: 10px;
+        bottom: 15px;
+        border-radius: 50%;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        padding: 8px 10px;
+        box-shadow: 0px 0px 8px rgba(0, 0, 0, .5);
+        -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, .5);
+        -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, .5);
+        background-color: #f81c1c;
+        position: fixed
+    }
+
+        .call-hotline.collapse .glyphicon-earphone {
+            font-size: 25px;
+            top: 4px;
+            color: #fff;
+        }
+}
+
+@media (max-width: 736px) {
+    .hotProducts ul li {
+        width: 222px;
+    }
+
+    .album-items .image, .image-items .image {
+        height: 335px;
+    }
+
+.products-item .image {
+        height: 335px;
+    }
+}
+
+@media (max-width: 667px) {
+    .hotProducts ul li {
+        width: 202px;
+    }
+
+    .album-items .image, .image-items .image {
+        height: 265px;
+    }
+
+.products-item .image {
+        height: 265px;
+    }
+}
+
+
+@media (max-width: 640px) {
+    .hotProducts ul li {
+        width: 190px;
+    }
+}
+
+@media (max-width: 620px) {
+    .productinfo .image {
+        max-height: 150px;
+    }
+
+    .album-list ul li {
+        margin-left: 8px;
+        margin-right: 8px;
+        width: 173px;
+        height: 120px;
+    }
+
+    .product-special ul li {
+        width: 173px;
+        height: 175px;
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+}
+
+@media (max-width: 568px) {
+    .hotProducts ul li {
+        width: 168px;
+        height: 200px;
+    }
+
+        .hotProducts ul li .image {
+            height: 170px;
+        }
+
+    .album-items .image, .image-items .image {
+        height: 250px;
+    }
+
+    .caroufredsel_wrapper {
+        height: 200px;
+    }
+
+.products-item .image {
+        height: 250px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .hotProducts ul li {
+        width: 217px;
+    }
+
+.products-item .image {
+        height: 180px;
+    }
+
+    .album-items .image, .image-items .image {
+        height: 180px;
+    }
+}
+
+@media (max-width:425px) {
+
+    .hotProducts ul li {
+        width: 185px;
+    }
+
+.products-item .image {
+        height: 175px;
+    }
+
+    .album-items .image, .image-items .image {
+        height: 175px;
+    }
+}
+
+@media (max-width: 375px) {
+    .hotProducts ul li {
+        width: 158px;
+        height: 200px;
+    }
+
+        .hotProducts ul li .image {
+            height: 158px;
+        }
+
+    .caroufredsel_wrapper {
+        height: 200px !important;
+    }
+
+    .products-item .image {
+        height: 162px;
+    }
+
+    .products-item .addCart {
+        margin: 5px 0px 8px 0px;
+    }
+
+    .inf_showitem .cartItem select {
+        width: 28px;
+        padding-left: 5px;
+    }
+
+    .album-items .image, .image-items .image {
+        height: 175px;
+    }
+}
+
+@media (max-width: 320px) {
+    .hotProducts ul li {
+        width: 136px;
+        height: 165px;
+    }
+
+        .hotProducts ul li .image {
+            height: 134px;
+        }
+
+    .hotProducts {
+        height: 220px;
+        margin-bottom: 10px;
+    }
+
+    #foo-product {
+        height: 180px;
+    }
+
+    .caroufredsel_wrapper {
+        height: 180px;
+    }
+
+    .products-item .image {
+        height: 135px;
+    }
+
+    .main-cc .image {
+        height: 134px;
+    }
+
+    .products-item .price {
+        height: 40px;
+        overflow: hidden;
+    }
+
+    .products-item .addCart {
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+
+    .products-item .price span {
+        display: block;
+    }
+
+    .inf_showitem .cartItem select {
+        margin-top: 15px;
+    }
+
+    .album-items .image, .image-items .image {
+        height: 135px;
+    }
+}

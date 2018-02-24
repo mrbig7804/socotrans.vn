@@ -1,0 +1,218 @@
+
+5/23/2016 2:29:21 PM
+'ddlStatus' has a SelectedIndex which is invalid because it does not exist in the list of items.
+Parameter name: value
+System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.ArgumentOutOfRangeException: 'ddlStatus' has a SelectedIndex which is invalid because it does not exist in the list of items.
+Parameter name: value
+   at System.Web.UI.WebControls.ListControl.set_SelectedIndex(Int32 value)
+   at System.Web.UI.WebControls.DropDownList.set_SelectedIndex(Int32 value)
+   at adm_ManageOrders.BindFormBill(Int32 orderID) in e:\TN_Project\_2016\Khohatgiong(khohatgiong.net)\WebData\adm\ManageOrders.aspx.cs:line 67
+   at adm_ManageOrders.grvBilling_SelectedIndexChanged(Object sender, EventArgs e) in e:\TN_Project\_2016\Khohatgiong(khohatgiong.net)\WebData\adm\ManageOrders.aspx.cs:line 122
+   at System.Web.UI.WebControls.GridView.OnSelectedIndexChanged(EventArgs e)
+   at System.Web.UI.WebControls.GridView.HandleSelect(Int32 rowIndex)
+   at System.Web.UI.WebControls.GridView.HandleEvent(EventArgs e, Boolean causesValidation, String validationGroup)
+   at System.Web.UI.WebControls.GridView.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.GridView.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.adm_manageorders_aspx.ProcessRequest(HttpContext context) in c:\Users\MrBig\AppData\Local\Temp\Temporary ASP.NET Files\root\ef2cbc55\59764dc5\App_Web_wcgxmp0v.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+5/23/2016 2:29:37 PM
+'ddlStatus' has a SelectedIndex which is invalid because it does not exist in the list of items.
+Parameter name: value
+System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.ArgumentOutOfRangeException: 'ddlStatus' has a SelectedIndex which is invalid because it does not exist in the list of items.
+Parameter name: value
+   at System.Web.UI.WebControls.ListControl.set_SelectedIndex(Int32 value)
+   at System.Web.UI.WebControls.DropDownList.set_SelectedIndex(Int32 value)
+   at adm_ManageOrders.BindFormBill(Int32 orderID) in e:\TN_Project\_2016\Khohatgiong(khohatgiong.net)\WebData\adm\ManageOrders.aspx.cs:line 67
+   at adm_ManageOrders.grvBilling_SelectedIndexChanged(Object sender, EventArgs e) in e:\TN_Project\_2016\Khohatgiong(khohatgiong.net)\WebData\adm\ManageOrders.aspx.cs:line 122
+   at System.Web.UI.WebControls.GridView.OnSelectedIndexChanged(EventArgs e)
+   at System.Web.UI.WebControls.GridView.HandleSelect(Int32 rowIndex)
+   at System.Web.UI.WebControls.GridView.HandleEvent(EventArgs e, Boolean causesValidation, String validationGroup)
+   at System.Web.UI.WebControls.GridView.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.GridView.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.adm_manageorders_aspx.ProcessRequest(HttpContext context) in c:\Users\MrBig\AppData\Local\Temp\Temporary ASP.NET Files\root\ef2cbc55\59764dc5\App_Web_wcgxmp0v.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+5/23/2016 2:31:01 PM
+'ddlStatus' has a SelectedIndex which is invalid because it does not exist in the list of items.
+Parameter name: value
+System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.ArgumentOutOfRangeException: 'ddlStatus' has a SelectedIndex which is invalid because it does not exist in the list of items.
+Parameter name: value
+   at System.Web.UI.WebControls.ListControl.set_SelectedIndex(Int32 value)
+   at System.Web.UI.WebControls.DropDownList.set_SelectedIndex(Int32 value)
+   at adm_ManageOrders.BindFormBill(Int32 orderID) in e:\TN_Project\_2016\Khohatgiong(khohatgiong.net)\WebData\adm\ManageOrders.aspx.cs:line 68
+   at adm_ManageOrders.grvBilling_SelectedIndexChanged(Object sender, EventArgs e) in e:\TN_Project\_2016\Khohatgiong(khohatgiong.net)\WebData\adm\ManageOrders.aspx.cs:line 124
+   at System.Web.UI.WebControls.GridView.OnSelectedIndexChanged(EventArgs e)
+   at System.Web.UI.WebControls.GridView.HandleSelect(Int32 rowIndex)
+   at System.Web.UI.WebControls.GridView.HandleEvent(EventArgs e, Boolean causesValidation, String validationGroup)
+   at System.Web.UI.WebControls.GridView.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.GridView.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.adm_manageorders_aspx.ProcessRequest(HttpContext context) in c:\Users\MrBig\AppData\Local\Temp\Temporary ASP.NET Files\root\ef2cbc55\59764dc5\App_Web_32shinza.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+5/23/2016 2:54:48 PM
+'ddlStatus' has a SelectedIndex which is invalid because it does not exist in the list of items.
+Parameter name: value
+System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.ArgumentOutOfRangeException: 'ddlStatus' has a SelectedIndex which is invalid because it does not exist in the list of items.
+Parameter name: value
+   at System.Web.UI.WebControls.ListControl.set_SelectedIndex(Int32 value)
+   at System.Web.UI.WebControls.DropDownList.set_SelectedIndex(Int32 value)
+   at adm_ManageOrders.BindFormBill(Int32 orderID) in e:\TN_Project\_2016\Khohatgiong(khohatgiong.net)\WebData\adm\ManageOrders.aspx.cs:line 69
+   at adm_ManageOrders.grvBilling_SelectedIndexChanged(Object sender, EventArgs e) in e:\TN_Project\_2016\Khohatgiong(khohatgiong.net)\WebData\adm\ManageOrders.aspx.cs:line 120
+   at System.Web.UI.WebControls.GridView.OnSelectedIndexChanged(EventArgs e)
+   at System.Web.UI.WebControls.GridView.HandleSelect(Int32 rowIndex)
+   at System.Web.UI.WebControls.GridView.HandleEvent(EventArgs e, Boolean causesValidation, String validationGroup)
+   at System.Web.UI.WebControls.GridView.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.GridView.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.adm_manageorders_aspx.ProcessRequest(HttpContext context) in c:\Users\MrBig\AppData\Local\Temp\Temporary ASP.NET Files\root\ef2cbc55\59764dc5\App_Web_yyrjscbc.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+5/23/2016 3:06:06 PM
+'ddlStatus' has a SelectedIndex which is invalid because it does not exist in the list of items.
+Parameter name: value
+System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.ArgumentOutOfRangeException: 'ddlStatus' has a SelectedIndex which is invalid because it does not exist in the list of items.
+Parameter name: value
+   at System.Web.UI.WebControls.ListControl.set_SelectedIndex(Int32 value)
+   at System.Web.UI.WebControls.DropDownList.set_SelectedIndex(Int32 value)
+   at adm_ManageOrders.BindFormBill(Int32 orderID) in e:\TN_Project\_2016\Khohatgiong(khohatgiong.net)\WebData\adm\ManageOrders.aspx.cs:line 69
+   at adm_ManageOrders.grvBilling_SelectedIndexChanged(Object sender, EventArgs e) in e:\TN_Project\_2016\Khohatgiong(khohatgiong.net)\WebData\adm\ManageOrders.aspx.cs:line 120
+   at System.Web.UI.WebControls.GridView.OnSelectedIndexChanged(EventArgs e)
+   at System.Web.UI.WebControls.GridView.HandleSelect(Int32 rowIndex)
+   at System.Web.UI.WebControls.GridView.HandleEvent(EventArgs e, Boolean causesValidation, String validationGroup)
+   at System.Web.UI.WebControls.GridView.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.GridView.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.adm_manageorders_aspx.ProcessRequest(HttpContext context) in c:\Users\MrBig\AppData\Local\Temp\Temporary ASP.NET Files\root\ef2cbc55\59764dc5\App_Web_yyrjscbc.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+5/23/2016 3:07:32 PM
+'ddlStatus' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.ArgumentOutOfRangeException: 'ddlStatus' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+   at System.Web.UI.WebControls.ListControl.set_SelectedValue(String value)
+   at adm_ManageOrders.BindFormBill(Int32 orderID) in e:\TN_Project\_2016\Khohatgiong(khohatgiong.net)\WebData\adm\ManageOrders.aspx.cs:line 70
+   at adm_ManageOrders.grvBilling_SelectedIndexChanged(Object sender, EventArgs e) in e:\TN_Project\_2016\Khohatgiong(khohatgiong.net)\WebData\adm\ManageOrders.aspx.cs:line 121
+   at System.Web.UI.WebControls.GridView.OnSelectedIndexChanged(EventArgs e)
+   at System.Web.UI.WebControls.GridView.HandleSelect(Int32 rowIndex)
+   at System.Web.UI.WebControls.GridView.HandleEvent(EventArgs e, Boolean causesValidation, String validationGroup)
+   at System.Web.UI.WebControls.GridView.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.GridView.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.adm_manageorders_aspx.ProcessRequest(HttpContext context) in c:\Users\MrBig\AppData\Local\Temp\Temporary ASP.NET Files\root\ef2cbc55\59764dc5\App_Web_z31pi413.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+5/23/2016 3:08:02 PM
+'ddlStatus' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.ArgumentOutOfRangeException: 'ddlStatus' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+   at System.Web.UI.WebControls.ListControl.set_SelectedValue(String value)
+   at adm_ManageOrders.BindFormBill(Int32 orderID) in e:\TN_Project\_2016\Khohatgiong(khohatgiong.net)\WebData\adm\ManageOrders.aspx.cs:line 70
+   at adm_ManageOrders.grvBilling_SelectedIndexChanged(Object sender, EventArgs e) in e:\TN_Project\_2016\Khohatgiong(khohatgiong.net)\WebData\adm\ManageOrders.aspx.cs:line 121
+   at System.Web.UI.WebControls.GridView.OnSelectedIndexChanged(EventArgs e)
+   at System.Web.UI.WebControls.GridView.HandleSelect(Int32 rowIndex)
+   at System.Web.UI.WebControls.GridView.HandleEvent(EventArgs e, Boolean causesValidation, String validationGroup)
+   at System.Web.UI.WebControls.GridView.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.GridView.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.adm_manageorders_aspx.ProcessRequest(HttpContext context) in c:\Users\MrBig\AppData\Local\Temp\Temporary ASP.NET Files\root\ef2cbc55\59764dc5\App_Web_ppx1vvnp.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+5/23/2016 3:19:17 PM
+String was not recognized as a valid DateTime.
+System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at System.Convert.ToDateTime(String value, IFormatProvider provider)
+   at adm_ManageOrders.BindData() in e:\TN_Project\_2016\Khohatgiong(khohatgiong.net)\WebData\adm\ManageOrders.aspx.cs:line 49
+   at adm_ManageOrders.btnFilterOrder_Click(Object sender, EventArgs e) in e:\TN_Project\_2016\Khohatgiong(khohatgiong.net)\WebData\adm\ManageOrders.aspx.cs:line 115
+   at System.Web.UI.WebControls.LinkButton.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.LinkButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.adm_manageorders_aspx.ProcessRequest(HttpContext context) in c:\Users\MrBig\AppData\Local\Temp\Temporary ASP.NET Files\root\ef2cbc55\59764dc5\App_Web_5mv03ltu.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+

@@ -1,0 +1,134 @@
+
+7/14/2015 8:43:02 AM
+Invalid object name 'dbo.Comments'.
+System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'dbo.Comments'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at Zensoft.Website.DataLayer.DAO.BaseDAO.ExecuteReader(DbCommand cmd, CommandBehavior behavior) in e:\TN_Project\_2015\Muabannhadat.v1(sieuthinhadatban.com)\DataLayer\DAO\BaseDAO.cs:line 64
+   at Zensoft.Website.DataLayer.DAO.BaseDAO.ExecuteReader(DbCommand cmd) in e:\TN_Project\_2015\Muabannhadat.v1(sieuthinhadatban.com)\DataLayer\DAO\BaseDAO.cs:line 59
+   at Zensoft.Website.DataLayer.DAO.CommentsBaseDAO.GetCommentsByArticleID(Int32 articleID) in e:\TN_Project\_2015\Muabannhadat.v1(sieuthinhadatban.com)\DataLayer\DAO\CommentsDAO.cs:line 101
+   at Zensoft.Website.BusinessLayer.BusinessFacade.CommentsBF.GetCommentsByArticleID(Int32 articleID) in e:\TN_Project\_2015\Muabannhadat.v1(sieuthinhadatban.com)\BusinessFace\BusinessFacade\CommentsBF.cs:line 77
+   at Zensoft.Website.BusinessLayer.BusinessFacade.ArticlesBF.Delete(Int32 articleID) in e:\TN_Project\_2015\Muabannhadat.v1(sieuthinhadatban.com)\BusinessFace\BusinessFacade\ArticlesBF.cs:line 263
+   at admin_ManageArticles.grvArticles_RowDeleting(Object sender, GridViewDeleteEventArgs e) in e:\TN_Project\_2015\Muabannhadat.v1(sieuthinhadatban.com)\WebData\adm\ManageArticles.aspx.cs:line 350
+   at System.Web.UI.WebControls.GridView.OnRowDeleting(GridViewDeleteEventArgs e)
+   at System.Web.UI.WebControls.GridView.HandleDelete(GridViewRow row, Int32 rowIndex)
+   at System.Web.UI.WebControls.GridView.HandleEvent(EventArgs e, Boolean causesValidation, String validationGroup)
+   at System.Web.UI.WebControls.GridView.OnBubbleEvent(Object source, EventArgs e)
+   at System.Web.UI.Control.RaiseBubbleEvent(Object source, EventArgs args)
+   at System.Web.UI.WebControls.GridViewRow.OnBubbleEvent(Object source, EventArgs e)
+   at System.Web.UI.Control.RaiseBubbleEvent(Object source, EventArgs args)
+   at System.Web.UI.WebControls.LinkButton.OnCommand(CommandEventArgs e)
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.LinkButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ClientConnectionId:26be6b08-1f41-4d64-ad3c-6d6d69e2365a
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.adm_managearticles_aspx.ProcessRequest(HttpContext context) in c:\Users\MrBig\AppData\Local\Temp\Temporary ASP.NET Files\root\d5999081\36300713\App_Web_dyum5zzm.2.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+7/14/2015 8:49:36 AM
+Invalid object name 'dbo.Comments'.
+System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'dbo.Comments'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at Zensoft.Website.DataLayer.DAO.BaseDAO.ExecuteReader(DbCommand cmd, CommandBehavior behavior) in e:\TN_Project\_2015\Muabannhadat.v1(sieuthinhadatban.com)\DataLayer\DAO\BaseDAO.cs:line 64
+   at Zensoft.Website.DataLayer.DAO.BaseDAO.ExecuteReader(DbCommand cmd) in e:\TN_Project\_2015\Muabannhadat.v1(sieuthinhadatban.com)\DataLayer\DAO\BaseDAO.cs:line 59
+   at Zensoft.Website.DataLayer.DAO.CommentsBaseDAO.GetCommentsByArticleID(Int32 articleID) in e:\TN_Project\_2015\Muabannhadat.v1(sieuthinhadatban.com)\DataLayer\DAO\CommentsDAO.cs:line 101
+   at Zensoft.Website.BusinessLayer.BusinessFacade.CommentsBF.GetCommentsByArticleID(Int32 articleID) in e:\TN_Project\_2015\Muabannhadat.v1(sieuthinhadatban.com)\BusinessFace\BusinessFacade\CommentsBF.cs:line 77
+   at Zensoft.Website.BusinessLayer.BusinessFacade.ArticlesBF.Delete(Int32 articleID) in e:\TN_Project\_2015\Muabannhadat.v1(sieuthinhadatban.com)\BusinessFace\BusinessFacade\ArticlesBF.cs:line 263
+   at admin_ManageArticles.grvArticles_RowDeleting(Object sender, GridViewDeleteEventArgs e) in e:\TN_Project\_2015\Muabannhadat.v1(sieuthinhadatban.com)\WebData\adm\ManageArticles.aspx.cs:line 350
+   at System.Web.UI.WebControls.GridView.OnRowDeleting(GridViewDeleteEventArgs e)
+   at System.Web.UI.WebControls.GridView.HandleDelete(GridViewRow row, Int32 rowIndex)
+   at System.Web.UI.WebControls.GridView.HandleEvent(EventArgs e, Boolean causesValidation, String validationGroup)
+   at System.Web.UI.WebControls.GridView.OnBubbleEvent(Object source, EventArgs e)
+   at System.Web.UI.Control.RaiseBubbleEvent(Object source, EventArgs args)
+   at System.Web.UI.WebControls.GridViewRow.OnBubbleEvent(Object source, EventArgs e)
+   at System.Web.UI.Control.RaiseBubbleEvent(Object source, EventArgs args)
+   at System.Web.UI.WebControls.LinkButton.OnCommand(CommandEventArgs e)
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.LinkButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ClientConnectionId:1f3f0b16-b38a-4073-87c9-5dd1b2dea9ab
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.adm_managearticles_aspx.ProcessRequest(HttpContext context) in c:\Users\MrBig\AppData\Local\Temp\Temporary ASP.NET Files\root\d5999081\36300713\App_Web_c5hifcgl.2.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+7/14/2015 9:07:13 AM
+Object reference not set to an instance of an object.
+System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at admin_Articles.Page_Load(Object sender, EventArgs e) in e:\TN_Project\_2015\Muabannhadat.v1(sieuthinhadatban.com)\WebData\adm\Articles.aspx.cs:line 80
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at Zensoft.Website.UI.BasePage.OnLoad(EventArgs e) in e:\TN_Project\_2015\Muabannhadat.v1(sieuthinhadatban.com)\WebData\App_Code\BasePage.cs:line 70
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.adm_articles_aspx.ProcessRequest(HttpContext context) in c:\Users\MrBig\AppData\Local\Temp\Temporary ASP.NET Files\root\d5999081\36300713\App_Web_oskpitnl.12.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+7/14/2015 9:07:22 AM
+Object reference not set to an instance of an object.
+System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at admin_Articles.Page_Load(Object sender, EventArgs e) in e:\TN_Project\_2015\Muabannhadat.v1(sieuthinhadatban.com)\WebData\adm\Articles.aspx.cs:line 80
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at Zensoft.Website.UI.BasePage.OnLoad(EventArgs e) in e:\TN_Project\_2015\Muabannhadat.v1(sieuthinhadatban.com)\WebData\App_Code\BasePage.cs:line 70
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.adm_articles_aspx.ProcessRequest(HttpContext context) in c:\Users\MrBig\AppData\Local\Temp\Temporary ASP.NET Files\root\d5999081\36300713\App_Web_oskpitnl.12.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+

@@ -1,0 +1,5 @@
+E:\TN_Project\_2013\104_ChimCanhNamDinh_v2\Code\Utilities\bin\Release\Utilities.dll
+E:\TN_Project\_2013\104_ChimCanhNamDinh_v2\Code\Utilities\bin\Release\Utilities.pdb
+E:\TN_Project\_2013\104_ChimCanhNamDinh_v2\Code\Utilities\obj\Release\Zensoft.Website.Utilities.csprojResolveAssemblyReference.cache
+E:\TN_Project\_2013\104_ChimCanhNamDinh_v2\Code\Utilities\obj\Release\Utilities.dll
+E:\TN_Project\_2013\104_ChimCanhNamDinh_v2\Code\Utilities\obj\Release\Utilities.pdb

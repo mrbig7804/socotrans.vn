@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{155DD432-0E79-4DAC-A5DB-ADA25CBEF3D6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Zensoft.Website.DataLayer</RootNamespace>
+    <AssemblyName>DataLayer</AssemblyName>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions, Version=1.0.61025.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Web.Extensions.Design, Version=1.0.61025.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DAO\ActivityLogsDAO.cs" />
+    <Compile Include="DAO\AdLinksDAO.cs" />
+    <Compile Include="DAO\AlbumDAO.cs" />
+    <Compile Include="DAO\ArticleHighlightsDAO.cs" />
+    <Compile Include="DAO\ArticlesDAO.cs" />
+    <Compile Include="DAO\BaseDAO.cs" />
+    <Compile Include="DAO\AdLocationsDAO.cs" />
+    <Compile Include="DAO\BrandDepartmentsDAO.cs" />
+    <Compile Include="DAO\BrandsDAO.cs" />
+    <Compile Include="DAO\CitiesDAO.cs" />
+    <Compile Include="DAO\DirectionDAO.cs" />
+    <Compile Include="DAO\Extend\DepartmentsDAO.cs" />
+    <Compile Include="DAO\Extend\VCategoriesDAO.cs" />
+    <Compile Include="DAO\Extend\VideosDAO.cs" />
+    <Compile Include="DAO\LikeDAO.cs" />
+    <Compile Include="DAO\Extend\ActivityLogsDAO.cs" />
+    <Compile Include="DAO\Extend\AdLinksDAO.cs" />
+    <Compile Include="DAO\Extend\ArticlesDAO.cs" />
+    <Compile Include="DAO\Extend\ProductCommentsDAO.cs" />
+    <Compile Include="DAO\Extend\ProductsDAO.cs" />
+    <Compile Include="DAO\PriceDistanceDAO.cs" />
+    <Compile Include="DAO\ProductCommentsDAO.cs" />
+    <Compile Include="DAO\CommentsDAO.cs" />
+    <Compile Include="DAO\DepartmentsDAO.cs" />
+    <Compile Include="DAO\FeedBackDAO.cs" />
+    <Compile Include="DAO\OrderItemsDAO.cs" />
+    <Compile Include="DAO\OrdersDAO.cs" />
+    <Compile Include="DAO\OrderStatusDAO.cs" />
+    <Compile Include="DAO\PaymentMethodsDAO.cs" />
+    <Compile Include="DAO\PCategoriesDAO.cs" />
+    <Compile Include="DAO\PMessagesDAO.cs" />
+    <Compile Include="DAO\PollOptionsDAO.cs" />
+    <Compile Include="DAO\PollsDAO.cs" />
+    <Compile Include="DAO\ProductImagesDAO.cs" />
+    <Compile Include="DAO\ProductPropertiesDAO.cs" />
+    <Compile Include="DAO\ProductsDAO.cs" />
+    <Compile Include="DAO\ProductSpecialsDAO.cs" />
+    <Compile Include="DAO\PropertiesDAO.cs" />
+    <Compile Include="DAO\PropertiesValuesDAO.cs" />
+    <Compile Include="DAO\SpecialsDAO.cs" />
+    <Compile Include="DAO\SuperCategoriesDAO.cs" />
+    <Compile Include="DAO\SuperDepartmentsDAO.cs" />
+    <Compile Include="DAO\SupplierPricesDAO.cs" />
+    <Compile Include="DAO\SuppliersDAO.cs" />
+    <Compile Include="DAO\UserPMessagesDAO.cs" />
+    <Compile Include="DAO\VCategoriesDAO.cs" />
+    <Compile Include="DAO\VideosDAO.cs" />
+    <Compile Include="DataObject\ActivityLog.cs" />
+    <Compile Include="DataObject\AdLink.cs" />
+    <Compile Include="DataObject\Album.cs" />
+    <Compile Include="DataObject\Article.cs" />
+    <Compile Include="DataObject\ArticleHighlight.cs" />
+    <Compile Include="DataObject\ArticleLocation.cs" />
+    <Compile Include="DataObject\Brand.cs" />
+    <Compile Include="DataObject\BrandDepartment.cs" />
+    <Compile Include="DataObject\Category.cs" />
+    <Compile Include="DAO\CategoriesDAO.cs" />
+    <Compile Include="DataObject\ADLocation.cs" />
+    <Compile Include="DataObject\City.cs" />
+    <Compile Include="DataObject\Direction.cs" />
+    <Compile Include="DataObject\Like.cs" />
+    <Compile Include="DataObject\AlbumImage.cs" />
+    <Compile Include="DAO\ALbumImageDAO.cs" />
+    <Compile Include="DataObject\PriceDepartment.cs" />
+    <Compile Include="DataObject\PriceDistance.cs" />
+    <Compile Include="DataObject\ProductComment.cs" />
+    <Compile Include="DataObject\Comment.cs" />
+    <Compile Include="DataObject\Department.cs" />
+    <Compile Include="DataObject\Feedback.cs" />
+    <Compile Include="DataObject\GMessage.cs" />
+    <Compile Include="DataObject\Order.cs" />
+    <Compile Include="DataObject\OrderItem.cs" />
+    <Compile Include="DataObject\OrderStatus.cs" />
+    <Compile Include="DataObject\PaymentMethod.cs" />
+    <Compile Include="DataObject\PCategory.cs" />
+    <Compile Include="DataObject\PMessage.cs" />
+    <Compile Include="DataObject\Poll.cs" />
+    <Compile Include="DataObject\PollOption.cs" />
+    <Compile Include="DataObject\Product.cs" />
+    <Compile Include="DataObject\ProductColor.cs" />
+    <Compile Include="DataObject\ProductImage.cs" />
+    <Compile Include="DataObject\ProductProperty.cs" />
+    <Compile Include="DataObject\ProductSpecial.cs" />
+    <Compile Include="DataObject\PropertiesGroup.cs" />
+    <Compile Include="DataObject\PropertiesValue.cs" />
+    <Compile Include="DataObject\Property.cs" />
+    <Compile Include="DataObject\Special.cs" />
+    <Compile Include="DataObject\SuperCategory.cs" />
+    <Compile Include="DataObject\SuperDepartment.cs" />
+    <Compile Include="DataObject\Supplier.cs" />
+    <Compile Include="DataObject\SupplierPrice.cs" />
+    <Compile Include="DataObject\UserPMessage.cs" />
+    <Compile Include="DataObject\VCategory.cs" />
+    <Compile Include="DataObject\Video.cs" />
+    <Compile Include="DAO\PropertiesGroupsDAO.cs" />
+    <Compile Include="DAO\PriceDepartmentDAO.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SqlService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

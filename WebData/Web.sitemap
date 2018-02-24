@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode  url="~/" title="Trang Chủ"  description="">
+      <siteMapNode title="Giới Thiệu" url="~/About.aspx"   description="" />
+      <siteMapNode title="SẢN PHẨM" url="~/shopping.aspx"   description="" />
+      <siteMapNode title="TIN TỨC" url="~/news.aspx"   description="" />
+      <siteMapNode title="ALBUM ẢNH" url="~/albums.aspx"   description="" />
+      <siteMapNode title="LIÊN HỆ" url="~/feedback.aspx"   description="" />
+      <siteMapNode title="Quản Trị" url="~/adm/" roles="Administrators, Editors, Contributors"/>
+    </siteMapNode>
+</siteMap>

@@ -1,0 +1,35 @@
+
+1/3/2014 11:48:16 PM
+Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.InvalidOperationException: Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Zensoft.Website.DataLayer.DAO.ProductsDAO.GetProductBySpecialID(Int32 specialID) in e:\TN_Project\_2013\104_ChimCanhNamDinh_v2\Code\DataLayer\DAO\Extend\ProductsDAO.cs:line 159
+   at Zensoft.Website.BusinessLayer.BusinessFacade.ProductsBF.GetProductsBySpecialID(Int32 specialID) in e:\TN_Project\_2013\104_ChimCanhNamDinh_v2\Code\BusinessFace\BusinessFacade\Extend\ProductsBF.cs:line 85
+   at ucSpecialItems.set_SpecialID(Int32 value) in e:\TN_Project\_2013\104_ChimCanhNamDinh_v2\Code\WebData\ucSpecialItems.ascx.cs:line 31
+   at ASP.default_aspx.__BuildControlucSpecialItems() in e:\TN_Project\_2013\104_ChimCanhNamDinh_v2\Code\WebData\Default.aspx:line 17
+   at ASP.default_aspx.__BuildControlContent1(Control __ctrl) in e:\TN_Project\_2013\104_ChimCanhNamDinh_v2\Code\WebData\Default.aspx:line 13
+   at System.Web.UI.CompiledTemplateBuilder.InstantiateIn(Control container)
+   at System.Web.UI.MasterPage.InstantiateInContentPlaceHolder(Control contentPlaceHolder, ITemplate template)
+   at ASP.templatehome_master.__BuildControlContentPlaceHolder1() in e:\TN_Project\_2013\104_ChimCanhNamDinh_v2\Code\WebData\TemplateHome.master:line 123
+   at ASP.templatehome_master.__BuildControlformElectric() in e:\TN_Project\_2013\104_ChimCanhNamDinh_v2\Code\WebData\TemplateHome.master:line 120
+   at ASP.templatehome_master.__BuildControlTree(templatehome_master __ctrl) in e:\TN_Project\_2013\104_ChimCanhNamDinh_v2\Code\WebData\TemplateHome.master:line 1
+   at ASP.templatehome_master.FrameworkInitialize() in e:\TN_Project\_2013\104_ChimCanhNamDinh_v2\Code\WebData\Template.master.cs:line 912307
+   at System.Web.UI.UserControl.InitializeAsUserControlInternal()
+   at System.Web.UI.MasterPage.CreateMaster(TemplateControl owner, HttpContext context, VirtualPath masterPageFile, IDictionary contentTemplateCollection)
+   at System.Web.UI.Page.get_Master()
+   at System.Web.UI.Page.ApplyMasterPage()
+   at System.Web.UI.Page.PerformPreInit()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Users\MrBig\AppData\Local\Temp\Temporary ASP.NET Files\root\3337d486\70a9448b\App_Web_j0nuqswy.28.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+

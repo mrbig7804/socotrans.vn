@@ -1,0 +1,273 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="TemplateShopping.master.cs" Inherits="TemplateShopping" %>
+
+<%@ Register Src="~/ucViewArticle.ascx" TagName="ucViewArticle" TagPrefix="uc4" %>
+<%@ Register Src="~/ucListArticles.ascx" TagName="ucListArticles" TagPrefix="uc5" %>
+<%@ Register Src="~/ucStatic.ascx" TagName="ucStatic" TagPrefix="uc7" %>
+<%@ Register Src="~/ucArticelMenu.ascx" TagName="ucArticelMenu" TagPrefix="uc9" %>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Siêu thị hoa tươi trực tuyến</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="text/javascript" src="/Scripts/jquery-1.12.0.min.js"></script>
+    <script src="/Library/bootstrap-3.3.6/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/Library/bootstrap-3.3.6/css/bootstrap.min.css" />
+    <link href="/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="/css/cart.css" rel="stylesheet" type="text/css" />
+    <link href="/css/responsive.css" rel="stylesheet" type="text/css" />
+    <%--<link href="/favicon.ico" type="image/ico" rel="shortcut icon" />--%>
+    <%--<script type="text/javascript" src="/Scripts/jquery-1.7.1.min.js"></script>--%>
+    <script type="text/javascript" src="/Library/lightbox/jquery.lightbox-0.5.js"></script>
+    <link rel="stylesheet" type="text/css" href="/library/lightbox/jquery.lightbox-0.5.css"
+        media="screen" />
+    <script type="text/javascript" src="/library/jquery.carouFredSel-5.6.1.js"></script>
+    <script type="text/javascript" src="/library/highslide/highslide.js"></script>
+    <script type="text/javascript" src="/library/highslide/highslide-html.js"></script>
+    <script type="text/javascript" src="/library/jquery.pixelentity.shiner.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin,vietnamese'
+        rel='stylesheet' type='text/css' />
+    <script type="text/javascript">
+        $(function () {
+            $(window).scroll(function () {
+                if ($(this).scrollTop() != 0) {
+                    $('#to_top').fadeIn();
+                } else {
+                    $('#to_top').fadeOut();
+                }
+            });
+
+            $('#to_top').click(function () {
+                $('body,html').animate({ scrollTop: 0 }, 600);
+            });
+
+            //var api = $(".shiner").peShiner({ api: true, paused: true, reverse: true, repeat: 1, color: 'white' });
+            //api.resume();
+
+            $(function () {
+                $('a.lightbox').lightBox(); // Select all links with lightbox class
+            });
+        });
+    </script>
+</head>
+<body>
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start':
+                new Date().getTime(), event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s),
+            dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src = '//www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-PMFCWL');
+
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/vi_VN/all.js#xfbml=1&appId=259839020855550";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+
+        window.___gcfg = { lang: 'vi' };
+
+        (function () {
+            var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+            po.src = 'https://apis.google.com/js/platform.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+        })();
+    </script>
+    <form id="frmElectricShop" runat="server">
+    <div id="wrapper">
+        <header id="header">
+            <div class="top-header">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 text-right">
+                            <ol>
+                                <li>
+                                    <p class="hotline"><span class="glyphicon glyphicon-earphone" ari-hidden="true"></span>HOTLINE: <b>089.825.3302 - 089.825.3301</b></p>
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mid-header">
+                <div class="container">
+                    <div class="row">
+                        <a class="logo" href="/" title="Siêu thị hoa tươi trực tuyến">
+                            <img alt="Siêu thị hoa tươi trực tuyến" src="/images/images_pj/logo.png" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="bot-header">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                            </div>
+                            <div class="mainmenu">
+                                <ul class="nav navbar-nav collapse navbar-collapse">
+                                    <li><a href="/">Trang chủ</a></li>
+                                    <li><a href="/gioi-thieu">Giới thiệu</a></li>
+                                    <li><a href="/san-pham">Hoa tươi</a></li>
+                                    <li><a href="/tin-tuc">Tin tức</a></li>
+                                    <li>
+                                        <a href="/cam-nang">Cẩm nang</a>
+                                        <uc9:ucArticelMenu runat="server" ID="ucArticelMenu2" ParentID="101" Url="cam-nang" />
+                                    </li>
+                                    <li><a href="/dich-vu">Dịch vụ khác</a></li>
+                                    <li><a href="/thu-vien-anh">Thư viện ảnh</a></li>
+                                    <li><a href="/lien-he">Liên hệ</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <%--THE END HEADER--%>
+        <section id="main-body">
+            <div class="container">
+                <div class="row shopPage white-bg">
+                    <asp:ScriptManager runat="server" ID="ScriptManager1" />
+                    <asp:ContentPlaceHolder id="cphShoppingPage" runat="server"></asp:ContentPlaceHolder>
+                </div>
+            </div>
+        </section>
+        <%--THE END BODY--%>
+        <footer id="footer">
+            <div class="container">
+                <div class="row top-footer">
+                    <div class="col-sm-8 info">
+                        <p class="name">
+                            <%= Zensoft.Website.Configuration.AppConfiguration.FooterName %>
+                        </p>
+                        <p class="add">
+                            <span class="glyphicon glyphicon-home"></span>
+                            <%= Zensoft.Website.Configuration.AppConfiguration.FooterAdd %>
+                        </p>
+                        <p class="phone">
+                            <span class="glyphicon glyphicon-phone"></span>
+                            <%= Zensoft.Website.Configuration.AppConfiguration.FooterPhone %>
+                        </p>
+                        <p class="email">
+                            <span class="glyphicon glyphicon-envelope"></span>
+                            <%= Zensoft.Website.Configuration.AppConfiguration.FooterEmail %>
+                        </p>
+                        <p class="web">
+                            <span class="glyphicon glyphicon-globe"></span>
+                            <%= Zensoft.Website.Configuration.AppConfiguration.FooterWeb %>
+                        </p>
+                        <p class="face">
+                            <span class="glyphicon glyphicon-user"></span>
+                            Facebook : <a href='<%= "https://www.facebook.com/" + Zensoft.Website.Configuration.AppConfiguration.FooterFace %>' target="_blank"><%= Zensoft.Website.Configuration.AppConfiguration.FooterFace %></a>
+                        </p>
+                        <%--<uc4:ucViewArticle runat="server" ID="ucViewArticle1" ArticleID="121" ShowBody="true" Editable="true" />--%>
+                    </div>
+                    <div class="col-sm-4 list-art collapse">
+                        <h3>Chính sách</h3>
+                        <uc5:ucListArticles runat="server" ID="ucListArticles1" CategoryID="105" MaxItem="6" />
+                    </div>
+                </div>
+                <div class="row bot-footer">
+                    <div class="col-sm-6 cp text-center">
+                        &copy; 2013. Thiết kế web bởi <a target="_blank" href="http://webtinnghia.com/">Tinnghia JSC</a>
+                    </div>
+                    <div class="col-sm-6 statistic text-center">
+                        <uc7:ucStatic runat="server" ID="ucStatic" />
+                        <%--<div class="socials collapse">
+                            <span>Theo dõi chúng tôi</span>
+                            <ol>
+                                <li><a>
+                                    <img src="/images/face-ico.jpg" alt="Siêu thị hoa tươi trực tuyến" /></a></li>
+                                <li><a>
+                                    <img src="/images/ggPlus-ico.jpg" alt="Siêu thị hoa tươi trực tuyến" /></a></li>
+                                <li><a>
+                                    <img src="/images/skype-ico.jpg" alt="Siêu thị hoa tươi trực tuyến" /></a></li>
+                                <li><a>
+                                    <img src="/images/youtube-ico.jpg" alt="Siêu thị hoa tươi trực tuyến" /></a></li>
+                            </ol>
+                        </div>--%>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <%--THE END FOOTER--%>
+    </div>
+    </form>
+    <div id="to_top" style="display: block;">
+    </div>
+
+    <div class="call-hotline collapse">
+        <a href="tel:0898253302"><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span></a>
+    </div>
+
+    <div data-toggle="1" class="wrapFaceMss">
+        <span class="x" style="">X</span>
+        <div class="fb-page" data-adapt-container-width="true" data-height="325" data-hide-cover="false" data-href="https://www.facebook.com/dienhoatructuyen24hBeanFlowers/" data-show-facepile="true" data-show-posts="false" data-small-header="false" data-tabs="messages" data-width="240"></div>
+    </div>
+    <div class="mnv-tuvan">
+        <span class="glyphicon glyphicon-comment" aria-hidden="true"></span><a class="collapse">Chat với chúng tôi</a>
+    </div>
+
+    <script>
+        $(document).ready(function () {
+            var raido = $(".wrapFaceMss").attr("data-toggle");
+            if (raido == 0) {
+                $(".mnv-tuvan").css("display", "none");
+                $(".x").click(function () {
+                    $(".wrapFaceMss").slideToggle();
+                    $(".mnv-tuvan").slideToggle();
+                });
+
+                $(".mnv-tuvan").click(function () {
+                    $(".wrapFaceMss").slideToggle();
+                    $(this).slideToggle();
+                });
+            }
+            else {
+                $(".wrapFaceMss").css("display", "none");
+                $(".x").click(function () {
+                    $(".wrapFaceMss").slideToggle();
+                    $(".mnv-tuvan").slideToggle();
+                });
+                $(".mnv-tuvan").click(function () {
+                    $(".wrapFaceMss").slideToggle();
+                    $(this).slideToggle();
+                });
+            }
+        })
+    </script>
+
+    <!-- AddThis Button BEGIN -->
+    <div class="addthis_toolbox addthis_floating_style addthis_counter_style collapse">
+        <a class="addthis_button_facebook_like" fb:like="box_count" ></a>
+        <a class="addthis_button_tweet" tw:count="vertical" ></a>
+        <a class="addthis_button_google_plusone" g:plusone="tall" ></a>
+        <%--<a class="addthis_counter" ></a>--%>
+    </div>
+    <script type="text/javascript">var addthis_config = { "data_track_addressbar": false };</script>
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5331b25646b7353b"></script>
+    <!-- AddThis Button END -->
+
+    <%--<script type="text/javascript"> (function (d, s, id) { var z = d.createElement(s); z.type = "text/javascript"; z.id = id; z.async = true; z.src = "//static.zotabox.com/9/b/9b19b99097097c14817a754f0dae5144/widgets.js"; var sz = d.getElementsByTagName(s)[0]; sz.parentNode.insertBefore(z, sz) }(document, "script", "zb-embed-code")); </script>--%>
+</body>
+</html>
+

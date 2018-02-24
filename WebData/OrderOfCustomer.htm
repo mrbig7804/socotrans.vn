@@ -1,0 +1,170 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <style type="text/css">
+        .style1
+        {
+            width: 339px;
+        }
+    </style>
+</head>
+<body>
+    <div style="border: 1px solid #cccccc; width:836px" >
+        <div style="background: url(/images/cart/Top_background.png) top left repeat-x">
+            <img src="/images/cart/Banner.png" alt="banner"/>
+        </div>
+        <table cellpadding="0" cellspacing="0" width="100%">
+            <tbody>
+                <tr>
+                    <td width="50%" style="border-right: 1px dotted #ccc">
+                        <div style="font-size: 13px; color: #ad1713; padding: 10px 0; font-weight: bold;">
+                            Thông tin mua hàng của Quý khách
+                        </div>
+                        <table cellpadding="0" cellspacing="0" width="100%">
+                            <tbody>
+                                <tr>
+                                    <td width="75">
+                                        <b>Tên</b>
+                                    </td>
+                                    <td>
+                                        [CustomerName]
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <b>Số cố định:</b>
+                                    </td>
+                                    <td>
+                                        [CustomerPhone]
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <b>Số di động:</b>
+                                    </td>
+                                    <td>
+                                        [CustomerMobile]
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                    <td class="style2">
+                        <div style="font-size: 13px; color: #ad1713; padding: 10px 0; font-weight: bold;">
+                            Địa chỉ nhận hàng
+                        </div>
+                        <table cellpadding="0" cellspacing="0" width="100%" class="cart_content_table">
+                            <tbody>
+                                <tr>
+                                    <td class="style3">
+                                        <b>Email:</b>
+                                    </td>
+                                    <td>
+                                        [CustomerEmail]
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="style3">
+                                        <b>Địa chỉ:</b>
+                                    </td>
+                                    <td>
+                                        [CustomerAddress]
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <b>Phương thức thanh toán:</b>
+                                    </td>
+                                    <td>
+                                        [CustomerMethod]
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <div style="border-top: 1px solid #cccccc">
+            <div style="font-size: 13px; color: #ad1713; padding: 10px 0; font-weight: bold;">
+                Đơn hàng
+            </div>
+            <div align="center">
+                <div>
+                    Mã đơn hàng:[IDOrder]
+                </div>
+                <table cellpadding="0" cellspacing="1" class="cart_content_table" width="100%" border="1"
+                    style="text-align: center">
+                    <tbody>
+                        <tr align="center">
+                            <th align="center" class="style1">
+                                Tên sản phẩm
+                            </th>
+                            <th width="80" align="center">
+                                Số lượng
+                            </th>
+                            <th width="100" align="center">
+                                Giá bán
+                            </th>
+                            <th width="150" align="center">
+                                Thành tiền
+                            </th>
+                        </tr>
+                        [Content]
+                        <tr>
+                            <td colspan="3" align="right">
+                                <b>Tổng:</b>
+                            </td>
+                            <td align="right">
+                                <b>[Total] </b>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3" align="right">
+                                <b>Phí vận chuyển:</b>
+                            </td>
+                            <td align="right">
+                                [ShippingCost]
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3" align="right">
+                                <b>Tổng cộng:</b>
+                            </td>
+                            <td align="right">
+                                <b class="price f14">[GrossCost] </b>
+                            </td>
+                        </tr>
+                         <tr >
+                                    <td colspan="4">
+                                        <b>Bằng chữ: [CharacterGross]</b> 
+                                        </td> 
+                                   </tr>
+                    </tbody>
+                </table>
+                <div align="left">
+                    <div>
+                        * Ghi chú: Phí vận chuyển chỉ là tạm tính. Chúng tôi sẽ thu phí vận chuyển dựa trên
+                        quãng đường thực tế (Phí vận chuyển sẽ không tính vào đơn hàng nếu như khách hàng
+                        thanh toán online).</div>
+                    <div style="line-height: 23px;" class="mTop10">
+                        <div>
+                            <b>Quý khách lưu ý:</b></div>
+                        <div>
+                            1. Vui lòng kiểm tra lại đơn hàng</div>
+                        <div>
+                            2. Kiểm tra lại thông tin về người nhận</div>
+                        <div>
+                            3. Quý khách vui lòng thông báo lại cho chúng tôi nếu đơn hàng có bất cứ sự sai
+                            sót gì trong vòng 48h.</div>
+                        <div>
+                            Xin chân thành cảm ơn quý khách!<br />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

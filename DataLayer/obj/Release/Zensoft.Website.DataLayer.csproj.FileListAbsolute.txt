@@ -1,0 +1,4 @@
+E:\TN_Project\_2013\104_ChimCanhNamDinh_v2\Code\DataLayer\bin\Release\DataLayer.dll
+E:\TN_Project\_2013\104_ChimCanhNamDinh_v2\Code\DataLayer\bin\Release\DataLayer.pdb
+E:\TN_Project\_2013\104_ChimCanhNamDinh_v2\Code\DataLayer\obj\Release\DataLayer.dll
+E:\TN_Project\_2013\104_ChimCanhNamDinh_v2\Code\DataLayer\obj\Release\DataLayer.pdb

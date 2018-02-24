@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2FD675BE-E44A-48A9-9B90-ACBFCA54C632}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Zensoft.Website.BusinessLayer</RootNamespace>
+    <AssemblyName>BusinessLayer</AssemblyName>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BusinessFacade\ActivityLogsBF.cs" />
+    <Compile Include="BusinessFacade\AdLinksBF.cs" />
+    <Compile Include="BusinessFacade\AlbumBF.cs" />
+    <Compile Include="BusinessFacade\ArticleHightlighstBF.cs" />
+    <Compile Include="BusinessFacade\ArticlesBF.cs" />
+    <Compile Include="BusinessFacade\BaseBF.cs" />
+    <Compile Include="BusinessFacade\BrandDepartmentsBF.cs" />
+    <Compile Include="BusinessFacade\BrandsBF.cs" />
+    <Compile Include="BusinessFacade\CategoriesBF.cs" />
+    <Compile Include="BusinessFacade\CitiesBF.cs" />
+    <Compile Include="BusinessFacade\CommentsBF.cs" />
+    <Compile Include="BusinessFacade\AdLocationsBF.cs" />
+    <Compile Include="BusinessFacade\DirectionBF.cs" />
+    <Compile Include="BusinessFacade\Extend\CitiesBF.cs" />
+    <Compile Include="BusinessFacade\Extend\DepartmentsBF.cs" />
+    <Compile Include="BusinessFacade\Extend\DirectionBF.cs" />
+    <Compile Include="BusinessFacade\Extend\OrdersBF.cs" />
+    <Compile Include="BusinessFacade\Extend\VCategoriesBF.cs" />
+    <Compile Include="BusinessFacade\LikeBF.cs" />
+    <Compile Include="BusinessFacade\DepartmentsBF.cs" />
+    <Compile Include="BusinessFacade\Extend\ActivityLogsBF.cs" />
+    <Compile Include="BusinessFacade\Extend\AdLinksBF.cs" />
+    <Compile Include="BusinessFacade\Extend\ArticlesBF.cs" />
+    <Compile Include="BusinessFacade\Extend\ProductCommentsBF.cs" />
+    <Compile Include="BusinessFacade\Extend\ProductsBF.cs" />
+    <Compile Include="BusinessFacade\FeedbackBF.cs" />
+    <Compile Include="BusinessFacade\AlbumImageBF.cs" />
+    <Compile Include="BusinessFacade\OrderItemsBF.cs" />
+    <Compile Include="BusinessFacade\OrdersBF.cs" />
+    <Compile Include="BusinessFacade\OrderStatusBF.cs" />
+    <Compile Include="BusinessFacade\PaymentMethodsBF.cs" />
+    <Compile Include="BusinessFacade\PCategoriesBF.cs" />
+    <Compile Include="BusinessFacade\PMessagesBF.cs" />
+    <Compile Include="BusinessFacade\PollOptionsBF.cs" />
+    <Compile Include="BusinessFacade\PollsBF.cs" />
+    <Compile Include="BusinessFacade\PriceDepartmentBF.cs" />
+    <Compile Include="BusinessFacade\PriceDistanceBF.cs" />
+    <Compile Include="BusinessFacade\ProductCommentsBF.cs" />
+    <Compile Include="BusinessFacade\ProductImagesBF.cs" />
+    <Compile Include="BusinessFacade\ProductPropertiesBF.cs" />
+    <Compile Include="BusinessFacade\ProductsBF.cs" />
+    <Compile Include="BusinessFacade\ProductSpecialsBF.cs" />
+    <Compile Include="BusinessFacade\PropertiesBF.cs" />
+    <Compile Include="BusinessFacade\PropertiesGroupsBF.cs" />
+    <Compile Include="BusinessFacade\PropertiesValuesBF.cs" />
+    <Compile Include="BusinessFacade\ShoppingCart.cs" />
+    <Compile Include="BusinessFacade\SpecialsBF.cs" />
+    <Compile Include="BusinessFacade\SuperCategoriesBF.cs" />
+    <Compile Include="BusinessFacade\SuperDepartmentsBF.cs" />
+    <Compile Include="BusinessFacade\SupplierPricesBF.cs" />
+    <Compile Include="BusinessFacade\SuppliersBF.cs" />
+    <Compile Include="BusinessFacade\UserPMessagesBF.cs" />
+    <Compile Include="BusinessFacade\VCategoriesBF.cs" />
+    <Compile Include="BusinessFacade\VideosBF.cs" />
+    <Compile Include="BusinessFacade\_enum.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SiteProvider.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DataLayer\Zensoft.Website.DataLayer.csproj">
+      <Project>{155DD432-0E79-4DAC-A5DB-ADA25CBEF3D6}</Project>
+      <Name>Zensoft.Website.DataLayer</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

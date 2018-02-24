@@ -1,0 +1,7 @@
+E:\TN_Project\_2013\104_ChimCanhNamDinh_v2\Code\BusinessFace\bin\Release\BusinessLayer.dll
+E:\TN_Project\_2013\104_ChimCanhNamDinh_v2\Code\BusinessFace\bin\Release\BusinessLayer.pdb
+E:\TN_Project\_2013\104_ChimCanhNamDinh_v2\Code\BusinessFace\bin\Release\DataLayer.dll
+E:\TN_Project\_2013\104_ChimCanhNamDinh_v2\Code\BusinessFace\bin\Release\DataLayer.pdb
+E:\TN_Project\_2013\104_ChimCanhNamDinh_v2\Code\BusinessFace\obj\Release\Zensoft.Website.BusinessLayer.csprojResolveAssemblyReference.cache
+E:\TN_Project\_2013\104_ChimCanhNamDinh_v2\Code\BusinessFace\obj\Release\BusinessLayer.dll
+E:\TN_Project\_2013\104_ChimCanhNamDinh_v2\Code\BusinessFace\obj\Release\BusinessLayer.pdb
